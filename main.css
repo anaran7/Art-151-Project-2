@@ -30,6 +30,35 @@ body {
     margin: 4px 2px;
     cursor: pointer;
   }
+
+  #snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+  }
+
+  .snowflake {
+    position: fixed;
+    background-color: white;
+    user-select: none;
+    z-index: 1000;
+    pointer-events: none;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  }
+
+  .redsnowflake {
+    position: fixed;
+    background-color: red;
+    user-select: none;
+    z-index: 1000;
+    pointer-events: none;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  }
   
   .button2 {background-color: #008CBA;} /* Blue */
   .button3 {background-color: #f44336;} /* Red */ 
