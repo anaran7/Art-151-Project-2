@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Newsreader&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bubblegum Sans&display=swap');
 
 body {
     color: white;
-    font-family: 'Montserrat';
+    font-family: 'Bubblegum Sans';
     font-weight: 400;
     text-align: center;
+    font-size: 25px;
     background-color:black;
   }
   

@@ -8,7 +8,7 @@ var browserWidth;
 var browserHeight;
 
 // Specify the number of snowflakes you want visible
-var numberOfSnowflakes = 50;
+var numberOfSnowflakes = 100;
 
 // Flag to reset the position of the snowflakes
 var resetPosition = false;
@@ -56,7 +56,7 @@ function Snowflake(element, speed, xPos, yPos) {
   this.sign = Math.random() < 0.5 ? 1 : -1;
 
   // setting an initial opacity and size for our snowflake
-  this.element.style.opacity = (.1 + Math.random()) / 3;
+  this.element.style.opacity = (.1 + Math.random());
 }
 
 //
